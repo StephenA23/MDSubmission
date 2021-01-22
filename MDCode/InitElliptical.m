@@ -23,7 +23,7 @@ T = 30;
 % AddParticleStream(5, 0.1, 10, -pi / 2, 1, Ep * C.q_0, 5);
 
 % Added by me
-AddEllipAtomicArray(10, 10, 5, 0, 5, 5, 0, T, 0);
+AddEllipAtomicArray(10, 6, 5, 0, 5, 5, 0, T, 0);
 
 Size = 20 * AtomSpacing;
 Limits = [-Size +Size -Size +Size]; % square is good
