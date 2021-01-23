@@ -19,10 +19,10 @@ T = 30;
 % AddRectAtomicArray(10, 10, 0, 0, 0, 0, 0, T, 0);
 % % vy0 = -sqrt(0.02*Ep/Mass1);
 % % AddRectAtomicArray(4,4,0,12*AtomSpacing,0,vy0,0,T,1);
-% Ep = 2;
-% AddParticleStream(5, 0.1, 10, -pi / 2, 1, Ep * C.q_0, 5);
 
 % Added by me
+Ep = 2;
+AddParticleStream(5, 0.1, 10, 85, -pi / 2, 1, Ep * C.q_0, 5);
 AddEllipAtomicArray(10, 6, 5, 0, 5, 5, 0, T, 0);
 
 Size = 20 * AtomSpacing;

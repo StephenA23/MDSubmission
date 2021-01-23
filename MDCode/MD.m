@@ -46,8 +46,8 @@ PlotPosOnly = 0;
 % InitCirc
 % InitBlock0
 % InitBlock0FD
-% InitVStream
-InitElliptical
+InitVStream
+% InitElliptical
 % InitHCP
 % InitHCPBlob
 % InitVStreamHCP
